@@ -31,6 +31,11 @@ GSE278119; controls n = 9, n-irAE n = 8).
 
 The CD4⁺ TEMRA comparison was pre-specified; all other clusters are exploratory.
 
+**Cluster labels.** The CD4⁺ re-clustering originally gave 9 clusters; one was removed
+before analysis, so the model output contains C1–C7 and C9. In the manuscript the
+clusters are numbered consecutively, i.e. code cluster **C9 = CD4⁺ TEMRA = cluster 8**
+in the paper. FDR within CD4⁺ is therefore computed over 8 clusters.
+
 ## Differential expression
 
 Differential expression in monocytes/DCs between n-irAE and control post-treatment
